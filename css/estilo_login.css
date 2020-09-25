@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+body{
+    background: #ebebeb;
+}
+
+.texto{
+    /*Centrado*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*Fuentes*/
+    font-family: 'Audiowide', cursive;
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.35);
+    
+    /*Fondo*/
+    background-image: url(../img/bg1.png);
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    background-position: 20% 0%;
+    
+    /*animacion*/
+    animation: carga 9s linear infinite;
+}
+
+@keyframes carga {
+    from{
+       background-position: 500% 0%; 
+    }to{
+        background-position: 0% 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
