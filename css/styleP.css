@@ -73,7 +73,7 @@ div.contenedor{
 
 #menu ul li a{
 	display: block;
-	padding: 10px 23.2px;
+	padding: 10px 22px;
 	text-decoration: none;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -246,12 +246,29 @@ a:hover {
 .button.type1.type1::after{bottom:0;right:0;border-color:transparent #566473 #566473 transparent}
 .button.type1.type1::before{top:0;left:0;border-color:#566473 transparent transparent #566473}
 .button.type1.type1:hover:after,.button.type1.type1:hover:before{width:100%;height:100%}
-.button.type2{color:#16a085}
-.button.type2.type2:after,.button.type2.type2:before{content:"";display:block;position:absolute;top:100%;left:0;width:100%;height:2px;background-color:#16a085;transition:all .3s ease;transform:scale(0.85)}
-.button.type2.type2:hover:before{top:0;transform:scale(1)}
-.button.type2.type2:hover:after{transform:scale(1)}
-.button.type3{color:#435a6b}
-.button.type3.type3::after,.button.type3.type3::before{content:"";display:block;position:absolute;width:20%;height:20%;border:2px solid;transition:all .6s ease;border-radius:2px}
-.button.type3.type3::after{bottom:0;right:0;border-color:transparent #435a6b #435a6b transparent}
-.button.type3.type3::before{top:0;left:0;border-color:#435a6b transparent transparent #435a6b}
-.button.type3.type3:hover:after,.button.type3.type3:hover:before{border-color:#435a6b;width:100%;height:100%}
+
+.actividad{
+	margin-left: 30%;
+	margin-top: -3%;
+}
+
+.img{
+	width: 50%;
+	height: 50%;
+	margin-left: 40%;
+}
+
+.img6{
+	width: 60%;
+	margin-left: 35%;
+}
+
+.img8{
+	width: 27%;
+	margin-left: 50%;
+}
+
+.img10{
+	width: 45%;
+	margin-left: 50%;
+}
